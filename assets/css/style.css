@@ -1,0 +1,278 @@
+body {
+  font-family: "League Spartan", helvetica, arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.25em;
+  color: #efefef;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black 0 60%, #820f00);
+  background-attachment: fixed;
+}
+
+nav {
+  background: black;
+  color: #aaa;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+header {
+  background-image: url("../images/header_background_1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #efefef;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 120px 0 140px 0;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background: black;
+  color: #aaa;
+  padding: 6px 12px;
+}
+
+header div#headersmall {
+  font-weight: 700;
+  font-size: 30px;
+  color: #efefef;
+  line-height: 0.9em;
+  margin-bottom: 20px;
+}
+
+div.promocontainer {
+  font-weight: 700;
+  font-size: 30px;
+  color: #aaa;
+  line-height: 1.1em;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-family: "League Gothic", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 140px;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+span.redtwo {
+  color: red;
+}
+
+div#wrapper {
+  max-width: 700px;
+  width: 100%;
+  margin: 60px auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#merch {
+}
+
+.mercharticle {
+  border: 1px solid #555;
+  width: 100%;
+  max-width: 300px;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 24px;
+}
+
+.merchimage {
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.merchimage img {
+  overflow: hidden;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.merchimage:hover img {
+  transform: scale(1.05);
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.merchimage img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  cursor: pointer;
+}
+
+.merchdisc {
+  background: black;
+  padding: 8px 8px 4px 8px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  z-index: 5;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 53.55%; /* 16:9 */
+  padding-top: 25px;
+  margin-bottom: 45px;
+  height: 0;
+  border: 3px solid red;
+  box-shadow: 4px 4px 12px #000;
+}
+
+.ytvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+::selection {
+  background: red;
+}
+
+#emailform {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 60px auto;
+}
+
+#emailform form input.emailinput {
+  width: 100%;
+  text-align: center;
+  border: 0px;
+  font-size: 28px;
+  line-height: 1em;
+  box-sizing: content-box;
+  padding: 0;
+  margin-bottom: 6px;
+  color: #efefef;
+  background: black;
+  border: 1px solid #555;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+input#submit {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 700;
+  border-radius: 8px;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+  margin-bottom: 18px;
+}
+
+#emailform input#submit {
+  background: red;
+  color: #efefef;
+  -webkit-appearance: none;
+  border-bottom: 3px solid #650f07;
+}
+
+#emailform button:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.4);
+}
+
+input#submit:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.4);
+}
+
+#signup-smallprint {
+  font-size: 18px;
+  color: #aaa;
+}
+
+a {
+  color: #efefef;
+}
+
+a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  div#wrapper {
+    max-width: 700px;
+    width: 100%;
+    margin: 30px auto 60px auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  body {
+    font-size: 19px;
+  }
+
+  div.promocontainer {
+    font-weight: 700;
+    font-size: 22px;
+    color: #aaa;
+    line-height: 1.1em;
+  }
+
+  div.youtube {
+    margin-bottom: 15px;
+  }
+
+  nav {
+    font-size: 15px;
+  }
+
+  footer {
+    margin-left: 5px;
+  }
+}
