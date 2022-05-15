@@ -148,6 +148,16 @@ div#wrapper {
   box-shadow: 4px 4px 12px #000;
 }
 
+.livefeed {
+  position: relative;
+  height: 45px;
+  width: 80px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border: 3px solid red;
+  box-shadow: 4px 4px 12px #000;
+}
+
 .ytvideo {
   position: absolute;
   top: 0;
